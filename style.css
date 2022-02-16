@@ -1,20 +1,7 @@
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+#a {
+  background-color: blanchedalmond;
 }
 
-
-body {
-  background: rgb(20, 20, 19); 
-  font-family:Times, 'Times New Roman', serif;
-  display: flex;
-  flex-direction: column;
-}
-
-a {
-  text-decoration: none;
-}
 
 h1 {
   text-align: center;
@@ -24,7 +11,6 @@ h1 {
   color: rgb(56, 85, 65);
 }
 
-
 img { 
   width: 100%;
   height: 100%;
@@ -33,4 +19,114 @@ img {
   border: 2px;
   padding: none;
 
+}
+
+#gradient 
+{
+background: rgb(2,0,36);
+background: linear-gradient(9deg, rgba(2,0,36,1) 0%, rgba(72,101,54,0.9378939075630253) 19%, rgba(0,212,255,1) 100%);
+}
+
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: beige;
+}
+
+h3 { 
+  background-color: rgb(56, 85, 65);
+  text-align: center;
+  font-size: 30px;
+  border-style: hidden;
+  padding-bottom: 10px;
+  color: rgb(15, 185, 55);
+
+ }
+
+
+#andre-life {
+  background-color: rgb(56, 85, 65);
+  font-size: 20px;
+  border-style: hidden;
+  padding: 80px;
+  color: rgb(15, 185, 55);
+
+}
+
+#legacy-1 {
+  background: rgb(43, 65, 50);
+  color: rgb(23, 124, 47);
+
+}
+
+#legacy {
+  background-color: rgb(43, 65, 50);
+  font-size: 20px;
+  border-style: hidden;
+  padding: 80px;
+  color: rgb(23, 124, 47);
+
+}
+
+#carrear-1 {
+  background-color: rgb(33, 49, 38);
+  color: rgb(92, 129, 101); ;
+}
+
+#carrear {
+  background-color: rgb(33, 49, 38);
+  font-size: 20px;
+  border-style: hidden;
+  padding: 80px;
+  color: rgb(92, 129, 101);
+  
+}
+
+
+#books-and-awards {
+  background-color: rgb(9, 27, 15);
+  font-size: 20px;
+  border-style: hidden;
+  padding: 80px;
+  color:  rgb(24, 82, 39);
+  
+}
+
+#bbk {
+  background-color:rgb(9, 27, 15);
+  font-size: 30px;
+  color: rgb(47, 102, 62);
+}
+
+#bookzz {
+  background-color:rgb(9, 27, 15);
+  font-size: 30px;
+  color: rgb(47, 102, 62);
+}
+
+.container {
+  display: flex;
+  background: rgb(10, 10, 10); 
+  justify-content: flex-start;
+  gap: 15px;
+  font-weight: bold;
+  font-size: 18px;
+  color: black
+  
+}
+
+
+h4 {
+  background-color: rgb(13, 77, 52);
+  text-align: center;
+  font-size: 40px;
+  padding-top: 65px;
+  padding-bottom: 20px;
+  color: black
 }
