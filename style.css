@@ -1,14 +1,21 @@
 #a {
-  background-color: blanchedalmond;
+  background-color: rgb(216, 231, 225);
 }
 
+ul {
+  list-style-type: none;
+}
+
+ul.ba {
+  list-style-type: none;
+}
 
 h1 {
   text-align: center;
   font-size: 60px;
   padding-top: 65px;
   padding-bottom: 20px;
-  color: rgb(56, 85, 65);
+  color: rgb(212, 207, 207)
 }
 
 img { 
@@ -21,11 +28,6 @@ img {
 
 }
 
-#gradient 
-{
-background: rgb(2,0,36);
-background: linear-gradient(9deg, rgba(2,0,36,1) 0%, rgba(72,101,54,0.9378939075630253) 19%, rgba(0,212,255,1) 100%);
-}
 
 
 body {
@@ -36,97 +38,96 @@ body {
 
 a {
   text-decoration: none;
-  color: beige;
+  color: rgb(212, 207, 207)
 }
 
 h3 { 
-  background-color: rgb(56, 85, 65);
+  
   text-align: center;
   font-size: 30px;
   border-style: hidden;
   padding-bottom: 10px;
-  color: rgb(15, 185, 55);
+  color: rgb(212, 207, 207)
 
  }
 
 
 #andre-life {
-  background-color: rgb(56, 85, 65);
+  text-align: center;
   font-size: 20px;
   border-style: hidden;
-  padding: 80px;
-  color: rgb(15, 185, 55);
+  padding: 100px;
+  color: rgb(212, 207, 207)
 
 }
 
 #legacy-1 {
-  background: rgb(43, 65, 50);
-  color: rgb(23, 124, 47);
+  
+  color:rgb(212, 207, 207)
 
 }
 
 #legacy {
-  background-color: rgb(43, 65, 50);
+  text-align: center;
   font-size: 20px;
   border-style: hidden;
-  padding: 80px;
-  color: rgb(23, 124, 47);
+  padding: 100px;
+  color: rgb(212, 207, 207)
 
 }
 
 #carrear-1 {
-  background-color: rgb(33, 49, 38);
-  color: rgb(92, 129, 101); ;
+  
+  color: rgb(212, 207, 207)
 }
 
 #carrear {
-  background-color: rgb(33, 49, 38);
+  text-align: center;
   font-size: 20px;
   border-style: hidden;
-  padding: 80px;
-  color: rgb(92, 129, 101);
+  padding: 100px;
+  color: rgb(212, 207, 207)
   
 }
 
 
 #books-and-awards {
-  background-color: rgb(9, 27, 15);
+  text-align: center;
   font-size: 20px;
+  text-align: center;
   border-style: hidden;
-  padding: 80px;
-  color:  rgb(24, 82, 39);
+  padding: 100px;
+  color: rgb(212, 207, 207)
   
 }
 
 #bbk {
-  background-color:rgb(9, 27, 15);
+  
   font-size: 30px;
-  color: rgb(47, 102, 62);
-}
-
-#bookzz {
-  background-color:rgb(9, 27, 15);
-  font-size: 30px;
-  color: rgb(47, 102, 62);
-}
-
-.container {
-  display: flex;
-  background: rgb(10, 10, 10); 
-  justify-content: flex-start;
-  gap: 15px;
-  font-weight: bold;
-  font-size: 18px;
-  color: black
+  text-align: center;
+  color: rgb(212, 207, 207)
   
 }
 
 
-h4 {
-  background-color: rgb(13, 77, 52);
+.container {
+
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+  font-weight: bold;
+  font-size: 20px;
+  color:rgb(212, 207, 207)
+
+}
+
+
+#larger {
+ 
   text-align: center;
-  font-size: 40px;
-  padding-top: 65px;
-  padding-bottom: 20px;
-  color: black
+  border-style: double;
+  font-size: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white 
 }
