@@ -1,3 +1,24 @@
+h1 {
+  font-size: 25px;
+  display: inline-block;
+  color: rgb(212, 207, 207)
+}
+
+.to-the-left {
+  float: left;
+  
+}
+
+.navegation-right {
+float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+
+
 #a {
   background-color: rgb(60, 134, 105);
 }
@@ -9,19 +30,17 @@ ul {
 ul.ba {
   list-style-type: none;
 }
-
-
-h1 {
-  text-align: center;
-  font-size: 60px;
-  padding-top: 80px;
-  padding-bottom: 80px;
-  color: rgb(212, 207, 207)
+ul li {
+  display: inline;
+    color: white;
+    margin-left: 20px;
 }
 
-#dark-mode {
+
+
+#dark-mode-btn {
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
   border-radius: 50%;
   font-size: 10px;
   color: white;
@@ -34,6 +53,12 @@ h1 {
 }
 
 
+
+#andre-left {
+  justify-content: space-between;
+  display: flex;
+}
+
 img { 
   width: 100%;
   height: 100%;
@@ -43,6 +68,8 @@ img {
   padding: none;
 
 }
+
+
 
 .image-gallery {
   
@@ -57,7 +84,13 @@ body {
   font-family: 'Times New Roman', Times, serif;
   display: flex;
   flex-direction: column;
+ 
 }
+#main-background { 
+  background: linear-gradient( to left, rgb(77, 95, 77) , rgb(20, 24, 23));
+
+}
+/* linear-gradient( to top, rgb(123, 151, 123) , rgb(20, 24, 23)); */
 
 a {
   text-decoration: none;
@@ -79,7 +112,8 @@ h3 {
   text-align: center;
   font-size: 20px;
   border-style: hidden;
-  padding: 100px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   color: rgb(212, 207, 207);
 
 }
@@ -94,39 +128,41 @@ h3 {
   text-align: center;
   font-size: 20px;
   border-style: hidden;
-  padding: 100px;
-  
-  color: rgb(212, 207, 207)
+  padding-top: 200px;
+  padding-bottom: 200px;
+  color: rgb(212, 207, 207);
 
 }
+legacy-p
 
-#carrear-1 {
+#career-1 {
   
   color: rgb(212, 207, 207)
 }
 
-#carrear {
+#career {
   text-align: center;
   font-size: 20px;
   border-style: hidden;
-  padding: 100px;
-  color: rgb(212, 207, 207)
+  padding-top: 200px;
+  padding-bottom: 200px;
+  color: rgb(212, 207, 207);
   
 }
 
 #bbk {
   
-  color: rgb(212, 207, 207)
+  color: rgb(212, 207, 207);
   
 }
 
 #books {
   text-align: center;
   font-size: 20px;
-  text-align: center;
   border-style: hidden;
-  padding: 150px;
-  color: rgb(212, 207, 207)
+  padding-top: 200px;
+  padding-bottom: 200px;
+  color: rgb(212, 207, 207);
   
 }
 
@@ -139,19 +175,19 @@ h3 {
   text-align: center;
   font-size: 20px;
   border-style: hidden;
-  padding-top: 150px;
+  padding-top: 200px;
   padding-bottom: 200px;
-  color: rgb(212, 207, 207)
+  color: rgb(212, 207, 207);
 }
 
 .container {
 
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
   gap: 15px;
   font-weight: bold;
   font-size: 20px;
-  color:rgb(212, 207, 207)
+  color:rgb(212, 207, 207);
 
 }
 
@@ -163,6 +199,6 @@ h3 {
   font-size: 25px;
   padding-top: 15px;
   padding-bottom: 15px;
-  color: rgb(36, 43, 41) 
+  color: rgb(99, 110, 107) ;
 }
 
